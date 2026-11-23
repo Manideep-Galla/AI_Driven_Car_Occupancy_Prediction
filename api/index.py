@@ -151,3 +151,4 @@ def app(environ, start_response):
         return handler.do_HEAD(environ, start_response)
     else:
         return handler.do_GET(environ, start_response)
+        
